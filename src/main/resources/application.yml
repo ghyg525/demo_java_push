@@ -1,0 +1,12 @@
+server:
+  port: 9090
+  
+push:
+  appkey: <由第三方推送平台提供>
+  secret: <由第三方推送平台提供>
+  apns: false  ##是否生成环境(false为开发)
+    
+logging:
+  level:
+    org:
+      springframework: info
